@@ -23,6 +23,14 @@ main a {
     display: block;
     width: 271px;
     background-color: rgba(71, 124, 107, 0.781);
+    
+}
+
+div > a:hover {
+    text-decoration-line: underline;
+    background-color: rgb(39, 49, 46);
+    transition-duration: 0.5s;
+    color: aliceblue;
 }
 
 
